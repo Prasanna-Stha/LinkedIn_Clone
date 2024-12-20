@@ -1,0 +1,96 @@
+.trackActivity {
+    width: 30vw;
+    height: 100vh;
+    background-color: #1e272e;
+    color: white;   
+}
+
+.weeklyData {
+    width: 85%;
+    height: fit-content;
+    margin: 30px auto;
+}
+
+.primaryTitle h1 {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.dateTrack h3 {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.dailyData {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.days {
+    width: calc(100%/7.5);
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: .3s linear;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.thur {
+    background-color: #363636;
+}
+
+.day h4,
+.amount h4 {
+    font-weight: lighter;
+    font-size: 12px;
+    text-align: center;
+}
+
+.amount h4 {
+    font-weight: 600;
+}
+
+.graph {
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+    background-image: url('./graph.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.timeRange {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.range {
+    width: 32%;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+.range:hover {
+    background-color: #363636;
+}
+
+.week {
+    background-color: #363636;
+}
+
+.range h3 {
+    text-align: center;
+    font-size: 12px;
+}

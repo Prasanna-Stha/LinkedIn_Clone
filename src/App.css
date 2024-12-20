@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2, h3, h4 {
+  color: #343a40;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}

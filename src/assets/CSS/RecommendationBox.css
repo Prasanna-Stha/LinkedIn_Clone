@@ -1,0 +1,8 @@
+.RecommendationBox{
+    width: 23vw;
+}
+@media only screen and (max-width: 770px){
+    .RecommendationBox{
+        display: none;
+    }
+}

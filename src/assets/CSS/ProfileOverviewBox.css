@@ -1,0 +1,103 @@
+.profileOverviewBox {
+    display: inline-block;
+    max-width: 300px;
+    height: fit-content;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    position: sticky;
+    top: 24px;
+}
+
+.profileImageBox {
+    margin-bottom: 16px;
+    position: relative;
+    top: -40px;
+}
+
+.profileImage {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #4c9aff;
+    cursor: pointer;
+}
+
+.profileText {
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.userName {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.bioInfo {
+    font-size: 14px;
+    color: #777;
+}
+
+.profileViewImpression {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #555;
+}
+
+.profileViews, .postImpression {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0;
+}
+
+.profileViews span, .postImpression span {
+    font-size: 14px;
+    color: #555;
+}
+
+.profileViews span:first-child, .postImpression span:first-child {
+    font-weight: 500;
+}
+
+.profileViews span:last-child, .postImpression span:last-child {
+    font-weight: 700;
+    color: #4c9aff;
+}
+
+.premiumSuggestionBox {
+    margin-top: 16px;
+    border-top: 1px solid #ddd;
+    padding-top: 12px;
+    text-align: left;
+    color: #555;
+}
+
+.premiumSuggestionBox h6 {
+    font-size: 14px;
+    margin: 8px 0;
+    color: #0073b1; /* LinkedIn primary blue color */
+    cursor: pointer;
+}
+
+.premiumSuggestionBox h6{
+    color: #555;
+    font-weight: 600;
+}
+
+.premiumSuggestionBox h6:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 770px){
+    .profileOverviewBox{
+        display: none;
+    }
+}

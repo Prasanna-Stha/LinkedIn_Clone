@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.messageBox {
+    position: fixed;
+    bottom: -115px;
+    right: 8px;
+    transition: bottom 0.2s linear;
+    border: 1px solid #deddd9;
+    background-color: #fff;
+    width: 22vw;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.messageUpperBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.profileBox img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.searchBox {
+    padding: 8px 12px;
+    border: 1px solid #deddd9;
+    width: 90%;
+    margin: 8px auto;
+    border-radius: 4px;
+}
+
+.priorityUser {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.priorityUser h6 {
+    text-align: center;
+    width: 40%;
+    cursor: pointer;
+    padding: 8px;
+    position: relative;
+}
+
+.priorityUser h6:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
